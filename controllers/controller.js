@@ -1,4 +1,11 @@
 const axios = require("axios");
+const cron = require("node-cron");
+const notifier = require("node-notifier");
+const path = require("path");
+
+cron.schedule("*/10 * * * * *", () => {
+  getTickets();
+});
 
 const getTickets = async () => {
   const dates = [
@@ -13,26 +20,63 @@ const getTickets = async () => {
     "2021-06-24",
   ];
 
-  url = `https://www.recreation.gov/api/timedentry/availability/facility/10087086?date=`;
-
-  let options = {
-    method: "get",
-    url: url,
-  };
-
   let responseArray = [];
 
-  try {
-    dates.forEach(async (date) => {
-      options.url = `${options.url}${date}`;
-      const response = await axios(options);
-      responseArray.push(response);
-    });
+  for (date of dates) {
+    let url = `https://www.recreation.gov/api/timedentry/availability/facility/10087086?date=${date}`;
 
-    return responseArray;
-  } catch (err) {
-    console.log(err);
+    let options = {
+      method: "get",
+      url: url,
+    };
+
+    const response = await axios(options);
+
+    responseArray.push(response.data[0]);
   }
+
+  let ticketResponse = getTicketCount(responseArray);
+
+  let message;
+  let messageArray = [];
+  ticketResponse.forEach((date) => {
+    if (date.ticketsRemaining > 0) {
+      message = `There are ${date.ticketsRemaining} ticket(s) avalible for ${date.date}`;
+      messageArray.push(message);
+    }
+  });
+
+  //console.log(messageArray);
+  if (messageArray.length === 0) {
+    console.log(new Date() + " No Tickets found");
+    return "No tickets found";
+  } else {
+    console.log(messageArray);
+    return messageArray;
+  }
+};
+
+const getTicketCount = (responseArray) => {
+  let ticketArray = [];
+
+  responseArray.forEach((response) => {
+    let totalTickets = response.inventory_count.ANY;
+    let ticketsClaimed = response.reservation_count.ANY;
+
+    let date = response.tour_date_start_timestamp;
+
+    let ticketsRemaining = totalTickets - ticketsClaimed;
+
+    let dateTicketsRemaining = {
+      date: date,
+      ticketsRemaining: ticketsRemaining,
+    };
+
+    ticketArray.push(dateTicketsRemaining);
+  });
+
+  //console.log(ticketArray);
+  return ticketArray;
 };
 
 module.exports = {
