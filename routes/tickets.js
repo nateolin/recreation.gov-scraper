@@ -10,11 +10,9 @@ router.get("/", function (req, res, next) {
 router.get("/tickets", async function (req, res, next) {
   try {
     const result = await Controller.getTickets();
-    //console.log(result);
     res.json(result);
   } catch (err) {
     console.log(err);
-    // console.log("got nothing, sorry bud");
   }
 });
 

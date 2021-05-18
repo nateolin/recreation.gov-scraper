@@ -1,23 +1,29 @@
 const axios = require("axios");
 const cron = require("node-cron");
-const notifier = require("node-notifier");
-const path = require("path");
+const nodemailer = require("nodemailer");
+
+let transporter = nodemailer.createTransport({
+  service: "gmail", //Edit this service if using a different service  --NOTE: if using gmail, see this link, you'll need to disable a security setting in order to send emails from it https://nodemailer.com/usage/using-gmail/
+  auth: {
+    user: "email", //Input username (or email) for the email address you want to send emails from
+    pass: "pass", //Input password
+  },
+});
 
 cron.schedule("*/10 * * * * *", () => {
   getTickets();
 });
 
 const getTickets = async () => {
+  //date array that holds dates to be checked
   const dates = [
+    "2021-06-11",
+    "2021-06-12",
+    "2021-06-13",
+    "2021-06-14",
+    "2021-06-15",
     "2021-06-16",
     "2021-06-17",
-    "2021-06-18",
-    "2021-06-19",
-    "2021-06-20",
-    "2021-06-21",
-    "2021-06-22",
-    "2021-06-23",
-    "2021-06-24",
   ];
 
   let responseArray = [];
@@ -31,7 +37,6 @@ const getTickets = async () => {
     };
 
     const response = await axios(options);
-
     responseArray.push(response.data[0]);
   }
 
@@ -46,13 +51,27 @@ const getTickets = async () => {
     }
   });
 
-  //console.log(messageArray);
-  if (messageArray.length === 0) {
+  if (messageArray.length !== 0) {
+    console.log(messageArray);
+    transporter.sendMail(
+      {
+        from: "email", //Input sender email address here
+        to: "email", //Input recipient email address here
+        subject: "ALERT - GTTSR Entry Tickets Avalible",
+        text: messageArray.toString(),
+      },
+      (error, info) => {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log("Email sent: " + info.response);
+        }
+      }
+    );
+    return messageArray;
+  } else {
     console.log(new Date() + " No Tickets found");
     return "No tickets found";
-  } else {
-    console.log(messageArray);
-    return messageArray;
   }
 };
 
@@ -75,7 +94,6 @@ const getTicketCount = (responseArray) => {
     ticketArray.push(dateTicketsRemaining);
   });
 
-  //console.log(ticketArray);
   return ticketArray;
 };
 
