@@ -12,7 +12,7 @@ let transporter = nodemailer.createTransport({
   },
 });
 
-cron.schedule("*/10 * * * * *", () => {
+cron.schedule("*/15 * * * * *", () => {
   getTickets();
 });
 
@@ -26,6 +26,8 @@ const getTickets = async () => {
     "2022-06-28",
     "2022-06-29",
     "2022-06-30",
+    "2022-07-01",
+    "2022-07-02",
   ];
 
   let responseArray = [];
