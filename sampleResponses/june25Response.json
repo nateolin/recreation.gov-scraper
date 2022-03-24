@@ -1,0 +1,154 @@
+[
+  {
+    "arrival_time_guest_counts": {},
+    "attributes": null,
+    "availability_lock": "0001-01-01T00:00:00Z",
+    "booking_window_open_override": null,
+    "booking_windows": {
+      "PRIMARY": {
+        "advanced_sales_details": {
+          "threshold_exists": false,
+          "threshold_tickets_remaining": 0
+        },
+        "close_timestamp": "2022-06-25T16:00:00-06:00",
+        "open_timestamp": "2022-02-25T08:00:00-07:00"
+      },
+      "SECONDARY": {
+        "advanced_sales_details": {
+          "threshold_exists": false,
+          "threshold_tickets_remaining": 0
+        },
+        "close_timestamp": "2022-06-25T16:00:00-06:00",
+        "open_timestamp": "2022-06-24T08:00:00-06:00"
+      }
+    },
+    "calculate_booking_window_close": true,
+    "created_date": "2022-02-23T21:46:04.926851391Z",
+    "deallocated_reservations": null,
+    "envelope": {
+      "encrypted_key": "",
+      "id": "",
+      "initialization_vector": "",
+      "service_key_id": ""
+    },
+    "facility_id": "10087086",
+    "fulfilled_count": 0,
+    "google_class_id": "",
+    "inventory_by_guest_type_id": {},
+    "inventory_count": {
+      "ANY": 548,
+      "ANY_SECONDARY": 548,
+      "COMM": 0,
+      "COMM_SECONDARY": 0,
+      "FIT": 0,
+      "FIT_SECONDARY": 0,
+      "LOTTERY": 0,
+      "WALKUP": 0
+    },
+    "last_manual_update": "0001-01-01T00:00:00Z",
+    "last_manual_update_local_date_time": {},
+    "last_updated_date": "2022-03-02T16:46:54.946268064Z",
+    "lottery_instance_id": "",
+    "reservation_count": {
+      "ANY": 548,
+      "ANY_SECONDARY": 0,
+      "COMM": 0,
+      "COMM_SECONDARY": 0,
+      "FIT": 0,
+      "FIT_SECONDARY": 0,
+      "LOTTERY": 0,
+      "WALKUP": 0
+    },
+    "rolling_release_date": {
+      "local_date": "2022-03-02",
+      "local_time": "0800"
+    },
+    "schedule_id": "c55e62da-6951-56d2-a7bb-66f865347a95",
+    "status": "OPEN",
+    "ticket_validation_window_close_timestamp": "2022-06-25T18:00:00-06:00",
+    "ticket_validation_window_open_timestamp": null,
+    "tour_date": "2022-06-25",
+    "tour_date_start_timestamp": "2022-06-25T00:00:00-06:00",
+    "tour_end_timestamp": "2022-06-25T16:00:00-06:00",
+    "tour_id": "10087087",
+    "tour_start_timestamp": "2022-06-25T06:00:00-06:00",
+    "tour_time": "0600",
+    "validated_count": 0
+  },
+  {
+    "arrival_time_guest_counts": {},
+    "attributes": null,
+    "availability_lock": "0001-01-01T00:00:00Z",
+    "booking_window_open_override": null,
+    "booking_windows": {
+      "PRIMARY": {
+        "advanced_sales_details": {
+          "threshold_exists": false,
+          "threshold_tickets_remaining": 0
+        },
+        "close_timestamp": "2022-06-25T18:00:00-06:00",
+        "open_timestamp": "2022-02-25T08:00:00-07:00"
+      },
+      "SECONDARY": {
+        "advanced_sales_details": {
+          "threshold_exists": false,
+          "threshold_tickets_remaining": 0
+        },
+        "close_timestamp": "2022-06-25T18:00:00-06:00",
+        "open_timestamp": "2022-06-24T08:00:00-06:00"
+      }
+    },
+    "calculate_booking_window_close": true,
+    "created_date": "2022-02-23T21:50:44.191458127Z",
+    "deallocated_reservations": null,
+    "envelope": {
+      "encrypted_key": "",
+      "id": "",
+      "initialization_vector": "",
+      "service_key_id": ""
+    },
+    "facility_id": "10087086",
+    "fulfilled_count": 0,
+    "google_class_id": "",
+    "inventory_by_guest_type_id": {},
+    "inventory_count": {
+      "ANY": 30,
+      "ANY_SECONDARY": 70,
+      "COMM": 0,
+      "COMM_SECONDARY": 0,
+      "FIT": 0,
+      "FIT_SECONDARY": 0,
+      "LOTTERY": 0,
+      "WALKUP": 0
+    },
+    "last_manual_update": "0001-01-01T00:00:00Z",
+    "last_manual_update_local_date_time": {},
+    "last_updated_date": "2022-03-24T13:56:45.869858805Z",
+    "lottery_instance_id": "",
+    "reservation_count": {
+      "ANY": 30,
+      "ANY_SECONDARY": 0,
+      "COMM": 0,
+      "COMM_SECONDARY": 0,
+      "FIT": 0,
+      "FIT_SECONDARY": 0,
+      "LOTTERY": 0,
+      "WALKUP": 0
+    },
+    "rolling_release_date": {
+      "local_date": "2022-03-02",
+      "local_time": "0800"
+    },
+    "schedule_id": "51815a23-dad6-5e53-9b43-a77c8fb4a3a3",
+    "status": "OPEN",
+    "ticket_validation_window_close_timestamp": "2022-06-25T18:00:00-06:00",
+    "ticket_validation_window_open_timestamp": "2022-06-25T05:45:00-06:00",
+    "tour_date": "2022-06-25",
+    "tour_date_start_timestamp": "2022-06-25T00:00:00-06:00",
+    "tour_end_timestamp": "2022-06-25T18:00:00-06:00",
+    "tour_id": "10088646",
+    "tour_start_timestamp": "2022-06-25T06:00:00-06:00",
+    "tour_time": "0600",
+    "validated_count": 0
+  }
+]

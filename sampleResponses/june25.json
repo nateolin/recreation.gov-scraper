@@ -1,0 +1,757 @@
+{
+  "facility_availability_summary_view_by_local_date": {
+    "2022-09-01": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-01",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-01",
+          "next_release_timestamp": "2022-05-04T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-02": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-02",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-02",
+          "next_release_timestamp": "2022-05-05T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-03": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-03",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-03",
+          "next_release_timestamp": "2022-05-06T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-04": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-04",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-04",
+          "next_release_timestamp": "2022-05-07T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-05": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-05",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-05",
+          "next_release_timestamp": "2022-05-08T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-06": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-06",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-06",
+          "next_release_timestamp": "2022-05-09T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-07": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-07",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-07",
+          "next_release_timestamp": "2022-05-10T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-08": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-08",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-08",
+          "next_release_timestamp": "2022-05-11T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-09": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-09",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-09",
+          "next_release_timestamp": "2022-05-12T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-10": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-10",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-10",
+          "next_release_timestamp": "2022-05-13T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-11": {
+      "availability_level": "HIGH",
+      "facility_id": "10087086",
+      "local_date": "2022-09-11",
+      "reserved_count": 0,
+      "scheduled_count": 2247,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "HIGH",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": true,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-11",
+          "next_release_timestamp": "2022-05-14T08:00:00-06:00",
+          "not_yet_released": 2147,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 2147,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-12": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-12",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-12",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-13": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-13",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-13",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-14": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-14",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-14",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-15": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-15",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-15",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-16": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-16",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-16",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-17": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-17",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-17",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-18": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-18",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-18",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-19": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-19",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-19",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-20": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-20",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-20",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-21": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-21",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-21",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-22": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-22",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-22",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-23": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-23",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-23",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-24": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-24",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-24",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-25": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-25",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-25",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-26": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-26",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-26",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-27": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-27",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-27",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-28": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-28",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-28",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-29": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-29",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-29",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    },
+    "2022-09-30": {
+      "availability_level": "NA",
+      "facility_id": "10087086",
+      "local_date": "2022-09-30",
+      "reserved_count": 0,
+      "scheduled_count": 0,
+      "tour_availability_summary_view_by_tour_id": {
+        "10087087": {
+          "availability_level": "NA",
+          "booking_windows": null,
+          "facility_id": "10087086",
+          "has_not_yet_released": false,
+          "has_reservable": false,
+          "has_walk_up": false,
+          "local_date": "2022-09-30",
+          "next_release_timestamp": null,
+          "not_yet_released": 0,
+          "reservable": 0,
+          "reserved_count": 0,
+          "scheduled_count": 0,
+          "tour_id": "10087087",
+          "walk_up": 0
+        }
+      }
+    }
+  },
+  "facility_id": "10087086",
+  "month": 9,
+  "year": 2022
+}
