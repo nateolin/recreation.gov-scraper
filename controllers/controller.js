@@ -5,8 +5,8 @@ const nodemailer = require("nodemailer");
 let transporter = nodemailer.createTransport({
   service: "gmail", //Edit this service if using a different service  --NOTE: if using gmail, see this link, you'll need to disable a security setting in order to send emails from it https://nodemailer.com/usage/using-gmail/
   auth: {
-    user: "email", //Input username (or email) for the email address you want to send emails from
-    pass: "pass", //Input password
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD,
   },
 });
 
@@ -17,13 +17,14 @@ cron.schedule("*/10 * * * * *", () => {
 const getTickets = async () => {
   //date array that holds dates to be checked
   const dates = [
-    "2021-06-11",
-    "2021-06-12",
-    "2021-06-13",
-    "2021-06-14",
-    "2021-06-15",
-    "2021-06-16",
-    "2021-06-17",
+    "2022-06-23",
+    "2022-06-24",
+    "2022-06-25",
+    "2022-06-26",
+    "2022-06-27",
+    "2022-06-28",
+    "2022-06-29",
+    "2022-06-30",
   ];
 
   let responseArray = [];
@@ -55,8 +56,8 @@ const getTickets = async () => {
     console.log(messageArray);
     transporter.sendMail(
       {
-        from: "email", //Input sender email address here
-        to: "email", //Input recipient email address here
+        from: process.env.EMAIL,
+        to: process.env.RECIPIENT_EMAIL,
         subject: "ALERT - GTTSR Entry Tickets Avalible",
         text: messageArray.toString(),
       },
