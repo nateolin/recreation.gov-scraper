@@ -1,4 +1,4 @@
-# Recreation.gov Going to the Sun Road Web Scraper
+# Recreation.gov Going to the Sun Road Script
 
 ### Steps to yeet this sucker
 
