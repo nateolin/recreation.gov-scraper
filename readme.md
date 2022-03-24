@@ -1,6 +1,6 @@
-# Recreation.gov Going to the Sun Road Web Scraper
+# Recreation.gov Going to the Sun Road Script
 
-### Steps to run this project
+### Steps to yeet this sucker
 
 1. Clone Repo to local machine using command `git clone`
 2. Open project with IDE of your choice
@@ -8,7 +8,7 @@
 4. Copy `.sample.env` contents and create new file in base directory called `.env`
 5. Modify contents in `.env` to use real values
 6. Run command `npm start` to start project!
-7. Sit back, relax, and wait for those tickets to pop up 
+7. Sit back, relax, eat chicky nuggies, & wait for ticks
 
 ### Noteworthy items: 
 - If you want to edit, remove, or add certain dates, make sure to match the date format found on lines 20-26 in controller.js
