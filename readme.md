@@ -5,9 +5,10 @@
 1. Clone Repo to local machine using command `git clone`
 2. Open project with IDE of your choice
 3. Run command `npm install` to install project dependencies
-4. Edit lines 6-9 & 58-59 in controller.js for your personal email preferences
-5. Run command `npm start` to start project!
-6. Sit back, relax, and wait for those tickets to pop up 
+4. Copy `.sample.env` contents and create new file in base directory called `.env`
+5. Modify contents in `.env` to use real values
+6. Run command `npm start` to start project!
+7. Sit back, relax, and wait for those tickets to pop up 
 
 ### Noteworthy items: 
 - If you want to edit, remove, or add certain dates, make sure to match the date format found on lines 20-26 in controller.js
