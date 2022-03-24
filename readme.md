@@ -1,6 +1,6 @@
 # Recreation.gov Going to the Sun Road Web Scraper
 
-### Steps to run this project
+### Steps to yeet this sucker
 
 1. Clone Repo to local machine using command `git clone`
 2. Open project with IDE of your choice
