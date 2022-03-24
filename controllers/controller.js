@@ -2,6 +2,8 @@ const axios = require("axios");
 const cron = require("node-cron");
 const nodemailer = require("nodemailer");
 
+require("dotenv").config();
+
 let transporter = nodemailer.createTransport({
   service: "gmail", //Edit this service if using a different service  --NOTE: if using gmail, see this link, you'll need to disable a security setting in order to send emails from it https://nodemailer.com/usage/using-gmail/
   auth: {
@@ -17,7 +19,6 @@ cron.schedule("*/10 * * * * *", () => {
 const getTickets = async () => {
   //date array that holds dates to be checked
   const dates = [
-    "2022-06-23",
     "2022-06-24",
     "2022-06-25",
     "2022-06-26",
