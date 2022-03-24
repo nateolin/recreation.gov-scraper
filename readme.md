@@ -8,7 +8,7 @@
 4. Copy `.sample.env` contents and create new file in base directory called `.env`
 5. Modify contents in `.env` to use real values
 6. Run command `npm start` to start project!
-7. Sit back, relax, eat chicken tendies, & wait for ticks
+7. Sit back, relax, eat chicky nuggies, & wait for ticks
 
 ### Noteworthy items: 
 - If you want to edit, remove, or add certain dates, make sure to match the date format found on lines 20-26 in controller.js
