@@ -12,6 +12,5 @@
 
 ### Noteworthy items: 
 - If you want to edit, remove, or add certain dates, make sure to match the date format found on lines 20-26 in controller.js
-- As of right now, this project is set to hit the recreation.gov site every 10 seconds
 - For more information about the 3rd party email service used, see this site: https://nodemailer.com/about/
    - If you use gmail as your sender address, you'll need to disable a security setting in your gmail account detailed here: https://nodemailer.com/usage/using-gmail/
