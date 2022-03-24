@@ -12,7 +12,7 @@ let transporter = nodemailer.createTransport({
   },
 });
 
-cron.schedule("*/15 * * * * *", () => {
+cron.schedule("*/30 * * * * *", () => {
   getTickets();
 });
 
