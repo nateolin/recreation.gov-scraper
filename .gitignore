@@ -2,3 +2,4 @@
 *.jade
 /bin
 package-lock.json
+.env
