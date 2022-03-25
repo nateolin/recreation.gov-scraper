@@ -39,9 +39,13 @@ const getTickets = async () => {
       method: "get",
       url: url,
     };
-
-    const response = await axios(options);
-    responseArray.push(response.data[0]);
+    try {
+      const response = await axios(options);
+      responseArray.push(response.data[0]);
+    } catch (err) {
+      console.log(err);
+      throw err;
+    }
   }
 
   let ticketResponse = getTicketCount(responseArray);
